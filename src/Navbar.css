@@ -1,0 +1,28 @@
+ 
+ .navbar{
+    
+ 
+background:red;
+ 
+width:100% ;
+gap:3rem;
+height:3rem;
+}
+
+
+input[type=text] {
+    padding:5px; 
+    border:2px solid rgb(5, 0, 0); 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    width:24rem;
+margin-top:1%;
+    
+}
+
+input[type=text]:focus {
+    border-color:rgb(20, 4, 4);
+    
+}
+
+ 

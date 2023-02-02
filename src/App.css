@@ -1,41 +1,41 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 0;
-  align-items: center;
-}
+@import url(//db.onlinewebfonts.com/c/831e1f4da157d96bc996f8c9f5f1e578?family=Pokemon+GB);
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+* {
+  
+  margin: 0 ;
+  padding:0;
+  text-align: center;
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
+  font-size: 10px;
+  font-smooth: never;
+  -webkit-font-smoothing: none;
+  font-family: "Pokemon GB", monospace;   
+  src: url("http://db.onlinewebfonts.com/t/831e1f4da157d96bc996f8c9f5f1e578.eot"); /* IE9*/
+  src: url("http://db.onlinewebfonts.com/t/831e1f4da157d96bc996f8c9f5f1e578.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("http://db.onlinewebfonts.com/t/831e1f4da157d96bc996f8c9f5f1e578.woff2") format("woff2"), /* chrome firefox */
+  url("http://db.onlinewebfonts.com/t/831e1f4da157d96bc996f8c9f5f1e578.woff") format("woff"), /* chrome firefox */
+  url("http://db.onlinewebfonts.com/t/831e1f4da157d96bc996f8c9f5f1e578.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+  url("http://db.onlinewebfonts.com/t/831e1f4da157d96bc996f8c9f5f1e578.svg#Pokemon GB") format("svg"); /* iOS 4.1- */
 
-.card {
-  padding: 2em;
 }
+.App{
+ 
+  background: url('https://images.alphacoders.com/961/thumb-1920-961005.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+ 
+.background{
+  display:flex;
+flex-direction: column;
 
-.read-the-docs {
-  color: #888;
+ 
+
+    width: 50%;
+  height:100%;
+}
+ 
+h1 {
+  font-size: 40px;
 }

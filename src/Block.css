@@ -1,0 +1,41 @@
+
+.popup-img{
+    max-width:30rem;
+  max-height:30vh;
+  margin-top: 5rem;
+  margin-right: 4rem;
+ 
+  }
+   
+.popup{
+    position:absolute;
+    display:flex;
+    margin-left: 20%;
+    margin-top:10%;
+    justify-content:center;
+    padding:0;
+    background:rgb(0, 0, 0,0.5);
+    padding:.5rem;
+    border: dashed plum;
+    text-transform:capitalize;
+     
+    font-size: 1.2rem;
+     
+    text-align:center;
+    width: 60%;
+    height:60vh;
+
+
+  }
+  .types{
+    margin:0.4;
+  }
+  .close{
+    border:solid white;
+ 
+  }
+  .info{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+  }

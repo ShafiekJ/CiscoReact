@@ -1,0 +1,30 @@
+
+img{
+    max-width:6rem;
+ 
+  }
+   
+  .pokemon{
+    display: grid;
+    background:rgb(0, 0, 0);
+    padding:.5rem;
+    border: dashed plum;
+    text-transform:capitalize;
+    color:rgb(255, 2, 86);
+    font-size: .8rem;
+    width:25%;
+    text-align:center;
+    min-width: 8rem;
+  }
+  .pokemon:hover{
+    background:rgb(29, 226, 177);
+  }
+  
+  .popup{
+    display:flex;
+    justify-content: center;
+    width:50%;
+    
+  }
+
+  
